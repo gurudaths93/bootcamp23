@@ -15,6 +15,7 @@ import { CountdownComponent } from './home/countdown/countdown.component';
 import { TimetableComponent } from './schedule/timetable/timetable.component';
 import { TablecontentComponent } from './schedule/timetable/tablecontent/tablecontent.component';
 import { PlacesgridComponent } from './explore/placesgrid/placesgrid.component';
+import { SurveyComponent } from './speakers/survey/survey.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { PlacesgridComponent } from './explore/placesgrid/placesgrid.component';
     CountdownComponent,
     TimetableComponent,
     TablecontentComponent,
-    PlacesgridComponent
+    PlacesgridComponent,
+    SurveyComponent
   ],
   imports: [
     BrowserModule,
