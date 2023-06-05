@@ -31,3 +31,7 @@
     border-color: #9e2896;
     margin-bottom: 30px;
 }
+
+.display-survey{
+    display: block !important;
+}
